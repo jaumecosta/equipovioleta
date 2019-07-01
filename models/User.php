@@ -1,8 +1,9 @@
 <?php
 
+require_once 'Conexion.php';
 
 
-class User{
+class User extends Conexion{
 
 private $id_usuario;    
 private $nombre;
@@ -27,5 +28,11 @@ public function getID(){
 public function setID($id_usuario){
     $this->id_usuario = $id_usuario;
 }
+
+
+public function crearUsuario(){
+
+}
+
 
 }
