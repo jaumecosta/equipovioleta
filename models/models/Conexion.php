@@ -12,10 +12,6 @@ public function __construct($server,$user,$pass,$db){
 }
 
 
-public function Query($query){
 
-    $this->conexion->query("$query");
-
-}
 
 }

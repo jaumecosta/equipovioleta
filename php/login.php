@@ -9,7 +9,7 @@ $verificado = $_POST['verificado'];
 
 $con = new Conexion('localhost','root','','Signup&in'); 
 
-$query = $con->Query('SELECT pass,email,verificado FROM signup');
+$query = $con->query('SELECT pass,email,verificado FROM signup');
 
 while($fila = $query->fetch_assoc()){
 

@@ -32,6 +32,9 @@ public function setID($id_usuario){
 
 public function crearUsuario(){
 
+$this->conexion->query('INSERT INTO signin (nombre,password,email,verificado) VALUES ($this->nombre.$this->password,$this->email,$this->verificado');
+
+
 }
 
 
